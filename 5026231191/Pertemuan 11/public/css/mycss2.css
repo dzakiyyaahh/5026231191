@@ -1,0 +1,156 @@
+* {
+    margin: 0 0 0 0;
+}
+
+.header {
+    height: 70px;
+    border-bottom: solid 1px black;
+}
+
+.header-logo {
+    height: 60px;
+    border-radius: 50%;
+    outline: solid 1px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.info-header {
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-header h3 {
+    margin-left: 15px;
+}
+
+.info-header-bar {
+    height: 35px;
+    /* width: 40%; */
+    display: flex;
+}
+
+.search-dropdown-menu {
+    border: solid black 1px;
+    height: 37px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.search-dropdown-menu img {
+    height: 15px;
+}
+
+.search-section-form {
+    display: flex;
+}
+
+.search-section input {
+    height: 35px;
+}
+
+.search-submit-button {
+    width: 20%;
+    outline: solid black 0.5px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.search-text-bar {
+    width: 70%;
+    outline: solid black 0.5px;
+    margin-top: 1px;
+}
+
+.title {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.main-section {
+    display: grid;
+    margin-left: 15px;
+    margin-top: 50px;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 20px;
+}
+
+.product-box {
+    height: 200px;
+    width: 160px;
+    outline: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-box img {
+    width: 85%;
+    height: 100px;
+}
+
+.product-box h5 {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-box p {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-box div {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.booking-section {
+    display: flex;
+    height: 100px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.left-booking-section {
+    width: 33%;
+}
+
+.middle-booking-section {
+    width: 43%;
+}
+
+.middle-booking-section button {
+    height: 30px;
+    width: 125px;
+    border-radius: 10px;
+    box-shadow: 3px black;
+    cursor: pointer;
+}
+
+.right-booking-section {
+    width: 23%;
+}
+
+.right-booking-section img {
+    height: 50px;
+}
+
+.right-booking-section a {
+    cursor: pointer;
+}
+
+@media screen
